@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tyler Olson | Web Developer | Portfolio | Blog | Contact">
+  <meta name="author" content="Tyler Olson">
+
+  <title>Tyler Olson | Portfolio</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+
+  <!-- Add custom CSS here -->
+  <link href="css/stylish-portfolio.css" rel="stylesheet">
+  <link href="css/custom-styles.css" rel="stylesheet">
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Side Menu -->
+  <a id="menu-toggle" href="#" class="btn btn-default btn-lg toggle"><i class="fa fa-bars"></i></a>
+  <div id="sidebar-wrapper">
+    <ul class="sidebar-nav text-center">
+      <li><a id="menu-close" href="#" class="text-center"><i class="fa fa-angle-double-right fa-2x"></i></a></li>
+      <li><a href="http://tgolson.com"><i class="fa fa-home fa-4x"></i></a></li>
+      <li><a href="./portfolio.html"><i class="fa fa-briefcase fa-4x"></i></a>
+      </li>
+      <li><a href="http://tyleronrails.tumblr.com/" target='blank'><i class="fa fa-pencil fa-4x"></i></a>
+      </li>
+      <li><a href="./contact.html"><i class="fa fa-coffee fa-4x"></i></a>
+      </li>
+    </ul>
+
+
+  </div>
+  <!-- /Side Menu -->
+
+
+  <!-- Callout -->
+<!--   <div class="callout">
+    <div class="vert-text">
+      <h1>Portfolio</h1>
+    </div>
+  </div>
+-->  <!-- /Callout -->
+
+<!-- Portfolio -->
+<div id="portfolio" class="portfolio">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-4 col-md-offset-2 text-center">
+        <div class="portfolio-item">
+          <a href="#" class="thumbnail" data-toggle="modal" data-target="#tgglModal">
+            <img class="img-portfolio img-responsive" src="img/tggl.png">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="portfolio-item">
+          <a href="#" class="thumbnail" data-toggle="modal" data-target="#tweetModal">
+            <img class="img-portfolio img-responsive" src="img/tweetbeat.png">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 col-md-offset-2 text-center">
+        <div class="portfolio-item">
+          <a href="#" class="thumbnail" data-toggle="modal" data-target="#sunsetModal">
+            <img class="img-portfolio img-responsive" src="img/sunset.png">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="portfolio-item">
+          <a href="#" class="thumbnail" data-toggle="modal" data-target="#yapModal">
+            <img class="img-portfolio img-responsive" src="img/yap.png">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class='row'>
+      <div class="col-md-8 col-md-offset-2">
+      <h2>Other Projects & Experiments</h2>
+
+        <li><p><a href="http://tgolson.com/day-off" target="_blank">Day Off</a>
+          - Playing around with D3.</p></li>
+
+        <li><p><a href="https://chrome.google.com/webstore/detail/r/cnccilamloafialmchgfgmbmojdfhmom?hl=en-US&authuser=1" target="_blank">/r/</a> & <a href="https://chrome.google.com/webstore/detail/u/kbnldpcaifablehfbmodhfnfnoobbfma?hl=en-US&authuser=1" target="_blank">/u/</a>
+          - Google Chrome extensions for quickly navigating to reddit sub-reddits and users.</p></li>
+
+        <li><p><a href="http://rubygems.org/gems/integer_expansion" target="_blank">integer_expansion</a>
+          - Ruby Gem for expanded Integer Class Methods, based on Ruby class Integer project.</p></li>
+
+        <li><p><a href="http://english-number.herokuapp.com" target="_blank">English Numbers</a>
+          - Live deployment of number-to-word program, created using Sinatra and Ruby.</p></li>
+
+        <li><p><a href="https://github.com/TGOlson/class_integer" target="_blank">Ruby class Integer</a>
+          - Additional methods for the Integer class in Ruby, including #to_english.</p></li>
+
+        <li><p><a href="http://tgolson.com/music-panda/" target="_blank">Music Panda</a>
+          - A small web app that recommends new artists or Pandora seeds.</p></li>
+
+        <li><p><a href="http://tgolson.com/docs/logosheet.pdf" target="_blank">Logo Designs</a>
+          - Style sheet of various logo designs.</p></li>
+      </ul>
+    </div>
+    </div>
+
+  </div>
+</div>
+<!-- /Portfolio -->
+
+
+
+<!-- Modals  -->
+
+<!-- tggl modal -->
+<div class="modal fade" id="tgglModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h1 class="modal-title text-center" id="myModalLabel">&lt;tggl-prjct&gt;</h1>
+      </div>
+      <div class="modal-body">
+        <div class='row'>
+
+          <div class='col-md-8'>
+            <img class="img-portfolio img-responsive" src="img/tggl.png">
+          </div>
+
+          <div class='col-md-4'>
+            <p><span class="label label-success">SASS</span></p>
+            <p><span class="label label-danger">JavaScript</span></p>
+            <p><span class="label label-primary">Open Source</span></p>
+            <p><span class="label label-info">Documentation</span></p>
+          </div>
+        </div>
+
+        <div class='row'>
+          <div class='col-md-12'>
+            <p>An open source library for flat UI slide-toggle buttons. Built with SASS and vanilla JavaScript with the goal of creating a lightweight, highly customizable solutions to easily integrate toggle buttons into a project.</p>
+            <p>The library can be used by stacking pre-made classes onto the default toggle button structure to create a variety of buttons.</p>
+            <div class='pull-right'>
+              <a href="http://tgolson.com/tggl-prjct/" target="_blank">Website</a> |
+              <a href="https://github.com/TGOlson/tggl-prjct" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Tweetbeat modal -->
+<div class="modal fade" id="tweetModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h1 class="modal-title text-center" id="myModalLabel">TweetBeat</h1>
+      </div>
+      <div class="modal-body">
+        <div class='row'>
+
+          <div class='col-md-8'>
+            <p><img class="img-portfolio img-responsive" src="img/tweetbeat.png"></p>
+          </div>
+
+          <div class='col-md-4'>
+            <p><span class="label label-primary">Rails</span></p>
+            <p><span class="label label-danger">JavaScript</span></p>
+            <p><span class="label label-danger">jQuery</span></p>
+            <p><span class="label label-danger">AJAX</span></p>
+            <p><span class="label label-success">Twitter Streaming API</span></p>
+            <p><span class="label label-info">Flat UI</span></p>
+            <p><span class="label label-warning">Multi Threading</span></p>
+          </div>
+        </div>
+
+        <div class='row'>
+          <div class='col-md-12'>
+            <p>Perhaps the only web-based synthesizer that Twitter can play. Uses the Twitter streaming API to scan for user selected keywords, which then corresponds to drum pads on the synthesizer. Features include an XY pad for frequency distortion and a visualizer setting.</p>
+            <div class='pull-right'>
+              <a href="https://github.com/fox-squirrels-2013/Legend-of-Moltar" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Sunset modal -->
+<div class="modal fade" id="sunsetModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h1 class="modal-title text-center" id="myModalLabel">SunsetLabs</h1>
+      </div>
+      <div class="modal-body">
+        <div class='row'>
+
+          <div class='col-md-8'>
+            <p><img class="img-portfolio img-responsive" src="img/sunset.png"></p>
+          </div>
+
+          <div class='col-md-4'>
+            <p><span class="label label-primary">Sinatra</span></p>
+            <p><span class="label label-danger">JavaScript</span></p>
+            <p><span class="label label-danger">AJAX</span></p>
+            <p><span class="label label-primary">WunderGround API</span></p>
+            <p><span class="label label-success">Twilio API</span></p>
+            <p><span class="label label-warning">Scheduled Jobs</span></p>
+            <p><span class="label label-info">Custom Algorithm</span></p>
+          </div>
+        </div>
+
+        <div class='row'>
+          <div class='col-md-12'>
+            <p>Small web app that allows users to sign up for daily texts of the sunset time in San Francisco. Site features a sunset rating algorithm based on visibility and other weather conditions.</p>
+            <div class='pull-right'>
+              <a href="http://sunsetlabs.herokuapp.com/" target="_blank">Website</a> |
+              <a href="https://github.com/louiedp3/SunsetLabs?source=c" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Yap modal -->
+<div class="modal fade" id="yapModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h1 class="modal-title text-center" id="myModalLabel">yapmap</h1>
+      </div>
+      <div class="modal-body">
+        <div class='row'>
+
+          <div class='col-md-8'>
+            <p><img class="img-portfolio img-responsive" src="img/yap.png"></p>
+          </div>
+
+          <div class='col-md-4'>
+            <p><span class="label label-primary">Sinatra</span></p>
+            <p><span class="label label-danger">JavaScript</span></p>
+            <p><span class="label label-danger">jQuery</span></p>
+            <p><span class="label label-primary">GoogleMaps API</span></p>
+            <p><span class="label label-success">GeoCoder IP Lookup</span></p>
+          </div>
+        </div>
+
+        <div class='row'>
+          <div class='col-md-12'>
+            <p>Aiming to recreate the world with dots - all visitors are anonymously added to the map as a randomly colored dot. Locations are found using GeoCoder reverse IP-lookup, and map data is from the Google Map API.</p>
+            <div class='pull-right'>
+              <a href="http://yapmap.herokuapp.com/" target="_blank">Website</a> |
+              <a href="https://github.com/TGOlson/yapmap" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<script src="js/jquery-1.10.2.js"></script>
+<script src="js/bootstrap.js"></script>
+
+<!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
+<script>
+
+$("#menu-close").click(function(e) {
+  e.preventDefault();
+  $("#sidebar-wrapper").toggleClass("active");
+});
+
+</script>
+<script>
+$("#menu-toggle").click(function(e) {
+  e.preventDefault();
+  $("#sidebar-wrapper").toggleClass("active");
+  $("body").toggleClass("click-out");
+});
+</script>
+
+</body>
+
+</html>
