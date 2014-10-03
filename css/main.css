@@ -1,0 +1,37 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 700px;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.contact-list {
+  margin-top: 30px;
+  text-align: right;
+}
+
+.contact-list li {
+  display: inline-block;
+}
+
+.projects {
+  margin-top: 40px;
+}
+
+.projects li {
+  margin-bottom: 10px;
+}
