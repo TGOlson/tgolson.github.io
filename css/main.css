@@ -6,9 +6,40 @@ a {
   text-decoration: none;
 }
 
+.circle-controls {
+  position: absolute;
+  top: 5px;
+  right: 2px;
+}
+
+.circle-controls ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.circle-controls li {
+  padding: 5px 9px;
+  cursor: pointer;
+}
+
+.circle-controls li.maxed {
+  color: #999;
+  cursor: default;
+}
+
+#pause {
+  -webkit-transform: rotate(90deg);
+     -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+       -o-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+
 .container {
   max-width: 700px;
-  width: 90%;
+  padding: 0 30px;
   margin: auto;
 }
 
@@ -22,6 +53,7 @@ a {
 
 .contact-list {
   margin-top: 30px;
+  padding: 0;
   text-align: right;
 }
 
@@ -36,3 +68,19 @@ a {
 .projects li {
   margin-bottom: 10px;
 }
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .contact-list {
+    text-align: left;
+  }
+}
+
