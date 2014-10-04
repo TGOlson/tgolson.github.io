@@ -6,6 +6,18 @@ a {
   text-decoration: none;
 }
 
+a:before {
+  content: "[";
+}
+
+a:after {
+  content: "]";
+}
+
+a:hover {
+  border-bottom: 1px dotted #00E;
+}
+
 .circle-controls {
   position: absolute;
   top: 5px;
