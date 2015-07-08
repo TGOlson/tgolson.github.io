@@ -1,98 +1,12 @@
+html, body, .content-wrapper {
+  height: 100%;
+}
+
 body {
-  font-family: "Courier New", Courier, monospace;
+  background-color: #fcfcfc
 }
 
-a {
-  text-decoration: none;
-}
-
-a:before {
-  content: "[";
-}
-
-a:after {
-  content: "]";
-}
-
-a:hover {
-  border-bottom: 1px dotted #00E;
-}
-
-.circle-controls {
-  position: absolute;
-  top: 5px;
-  right: 2px;
-}
-
-.circle-controls ul {
-  margin: 0;
-  list-style: none;
-  padding: 0;
-}
-
-.circle-controls li {
-  padding: 5px 9px;
-  cursor: pointer;
-}
-
-.circle-controls li.maxed {
-  color: #999;
-  cursor: default;
-}
-
-#pause {
-  -webkit-transform: rotate(90deg);
-     -moz-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-       -o-transform: rotate(90deg);
-          transform: rotate(90deg);
-}
-
-
-.container {
-  max-width: 700px;
-  padding: 0 30px;
+.content {
   margin: auto;
+  /*text-align: center;*/
 }
-
-.header {
-  text-align: center;
-}
-
-.header h1 {
-  font-size: 40px;
-}
-
-.contact-list {
-  margin-top: 30px;
-  padding: 0;
-  text-align: right;
-}
-
-.contact-list li {
-  display: inline-block;
-}
-
-.projects {
-  margin-top: 40px;
-}
-
-.projects li {
-  margin-bottom: 10px;
-}
-
-.noselect {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-@media only screen and (max-width: 767px) {
-  .contact-list {
-    text-align: left;
-  }
-}
-
