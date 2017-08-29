@@ -3,10 +3,11 @@ html, body, .content-wrapper {
 }
 
 body {
-  background-color: #fcfcfc
+  background-color: #fcfcfc;
 }
 
 .content {
+  max-width: 700px;
   margin: auto;
   padding-bottom: 100px;
 }
