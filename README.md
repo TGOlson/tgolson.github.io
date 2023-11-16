@@ -1,5 +1,4 @@
-# Tyler Olson
-
+# [Tyler Olson | tgolson.net](https://tgolson.net)
 Just a place to put some things. Take a look or get in touch : )
 
 ## Projects
@@ -82,3 +81,7 @@ Other older (pre-2016) things I’ve written, available to browse on Medium. Som
 * [Linkedin](https://www.linkedin.com/in/tylergolson/)
 * [Twitter](https://twitter.com/TyGuyO) (not much here, but feel free to DM!)
 * Email => `hello@tgolson.net`
+
+<hr>
+
+*Generated from markdown and deployed with github pages. Source: https://github.com/TGOlson/tgolson.github.io*
