@@ -1,4 +1,1 @@
-plugins:
-  - jekyll-readme-index
-readme_index:
-  remove_originals: true
+markdown: GFM

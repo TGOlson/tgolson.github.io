@@ -1,7 +1,6 @@
 # Tyler Olson
 
 
-
 Just a place to put some things. Take a look or get in touch : )
 
 ## Projects
