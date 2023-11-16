@@ -1,3 +1,3 @@
 # tgolson.github.io
 
-Github pages deploy for personal site. Renders iframe of google doc. See: https://maybetyler.com
+Github pages deploy of personal site. See: https://tgolson.net
