@@ -84,4 +84,4 @@ Other older (pre-2016) things I’ve written, available to browse on Medium. Som
 
 <hr>
 
-*Generated from markdown and deployed with github pages. Source: https://github.com/TGOlson/tgolson.github.io*
+*Generated from markdown and deployed with GitHub Pages. Source: https://github.com/TGOlson/tgolson.github.io*
