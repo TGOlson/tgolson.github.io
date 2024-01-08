@@ -71,6 +71,10 @@ Flexible and lightweight object validation library for Javascript. Focusing on f
 Writeup on potential ways to optimize Ethereum gas usage (and in turn save $$$) when executing operations via a smart contract. 
 ([medium](https://medium.com/@tyguyo/efficient-ethereum-smart-contract-storage-361e4f126bbd))
 
+### Running Haskell on a Raspberry Pi
+How to build and run Haskell binaries on a Raspberry Pi using Docker.
+([medium](https://medium.com/@tyguyo/running-haskell-on-a-raspberry-pi-a4823ae9ce82))
+
 ### Other old stuff
 Other older (pre-2016) things I’ve written, available to browse on Medium. Some fun stuff in there. 
 ([medium](https://medium.com/@tyguyo))
