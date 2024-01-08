@@ -86,7 +86,7 @@ Other older (pre-2016) things I’ve written, available to browse on Medium. Som
 ## Contact
 * [Github](https://github.com/TGOlson) 
 * [Linkedin](https://www.linkedin.com/in/tylergolson/)
-* [Twitter](https://twitter.com/TyGuyO) (not much here, but feel free to DM!)
+* [Twitter](https://twitter.com/TyGuyO) (not much here, but feel free to say hi!)
 * Email => `hello@tgolson.net`
 
 <hr>
