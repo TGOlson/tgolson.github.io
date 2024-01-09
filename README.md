@@ -68,7 +68,7 @@ Flexible and lightweight object validation library for Javascript. Focusing on f
 
 ## Writing
 ### Blockchain in Haskell
-Overview of implementing a generic blockchain implementation in Haskell. ([medium](https://medium.com/@tyguyo/blockchain-in-haskell-66fecd2e80ff))
+Overview of building a generic blockchain implementation in Haskell. ([medium](https://medium.com/@tyguyo/blockchain-in-haskell-66fecd2e80ff))
 
 ### Efficient Ethereum Smart Contract Storage
 Writeup on potential ways to optimize Ethereum gas usage (and in turn save $$$) when executing operations via a smart contract. 
